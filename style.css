@@ -372,6 +372,24 @@ header nav ul li a:hover, .dark-btn i:hover {
   color: var(--third-color);
 }
 
+.thanks-container {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.thanks-container h1{
+  color: var(--primary-color);
+  font-size: 43px;
+}
+
+.thanks-container a {
+  font-size: 25px;
+}
+
 /* Media Querie */
 @media (max-width:962px) {
   /* Header */
