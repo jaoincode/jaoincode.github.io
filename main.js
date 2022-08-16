@@ -17,6 +17,8 @@ function cardOver(element) {
   if(element.classList.contains('html')) return description.textContent = "o HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos.";
 
   if(element.classList.contains('css')) return description.textContent = "CSS é utilizado na estilização de componentes escritos em linguagens de marcação.";
+
+  if(element.classList.contains('react')) return description.textContent = "React é uma biblioteca criada para construir aplicações web, juntando o melhor do html, css e javscript.";
 }
 
 // Smooth Scroll

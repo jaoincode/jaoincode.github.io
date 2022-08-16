@@ -378,6 +378,7 @@ header nav ul li a:hover, .dark-btn i:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -388,6 +389,17 @@ header nav ul li a:hover, .dark-btn i:hover {
 
 .thanks-container a {
   font-size: 25px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  margin-top: 40px;
+  border: 1px solid;
+  width: 300px;
+  padding: 10px;
+  transition: transform .2s ease;
+}
+
+.thanks-container a:hover {
+  transform: scale(1.05);
 }
 
 /* Media Querie */
